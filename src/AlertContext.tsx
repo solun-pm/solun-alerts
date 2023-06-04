@@ -21,6 +21,7 @@ const AlertProvider = ({ children }: { children: ReactNode }) => {
 
   return (
     <AlertContext.Provider value={{ setAlert }}>
+      {children}
       {alert && (
         <Alert
           type={alert.type}
@@ -29,7 +30,6 @@ const AlertProvider = ({ children }: { children: ReactNode }) => {
           onCancel={alert.onCancel}
         />
       )}
-      {children}
     </AlertContext.Provider>
   );
 };
