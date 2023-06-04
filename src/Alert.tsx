@@ -1,3 +1,5 @@
+"use client";
+
 import React from 'react';
 
 const Alert = ({ type, message, onOk, onCancel }: any) => {
