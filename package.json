@@ -1,6 +1,6 @@
 {
   "name": "solun-alerts",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "This package is used to create simple alert boxes in the solun theme.",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
