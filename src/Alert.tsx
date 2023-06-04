@@ -22,7 +22,7 @@ const Alert = ({ type, message, onOk, onCancel }: any) => {
             bgColor = 'bg-slate-800';
     }
 
-    React.useEffect(() => {
+    React.useEffect((): any => {
         if (type !== 'question') {
             const timer = setTimeout(() => {
                 setIsVisible(false);
